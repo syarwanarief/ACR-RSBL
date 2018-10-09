@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1044771013781",
+    "firebase_url": "https://rsbl-87639.firebaseio.com",
+    "project_id": "rsbl-87639",
+    "storage_bucket": "rsbl-87639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044771013781:android:c018af203df6e9cc",
+        "android_client_info": {
+          "package_name": "mobile.project.rsbl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044771013781-fjj7qp9isr7d8ja14f32dougbat2j0bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.project.rsbl",
+            "certificate_hash": "7df4b04aced522b82a4dcc20373cebe2400232f8"
+          }
+        },
+        {
+          "client_id": "1044771013781-jd4nicoffvkpi4d711ma8v9t2oke98rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIz93G66I6SUCB77e6gaKs4n8PPo3j0WI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044771013781-jd4nicoffvkpi4d711ma8v9t2oke98rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
