@@ -6,31 +6,51 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="60dp"
         android:layout_weight="1"
         android:background="@color/black_overlay"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <mobile.project.MenuUtama.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/pagesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_indicator"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/black_overlay"
-        android:orientation="horizontal"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#0d0d36"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -39,9 +59,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:src="@mipmap/ic_launcher"
                     android:onClick="RSabdulMoeloek"/>
 
@@ -52,6 +73,7 @@
                     android:text="RS. Abdul Moeloek"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -61,7 +83,6 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="#fff1"
             android:onClick="buttonSmsPacar">
 
             <LinearLayout
@@ -70,9 +91,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="RSadvent"
                     android:src="@mipmap/ic_launcher" />
 
@@ -83,6 +105,7 @@
                     android:text="RS. Advent B.Lampung"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -91,8 +114,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -100,9 +122,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="RSimanuel"
                     android:src="@mipmap/ic_launcher" />
 
@@ -113,6 +136,7 @@
                     android:text="RS. Imanuel Way Halim"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -122,7 +146,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#0d0d36"
+        android:background="@color/black_overlay"
         android:orientation="horizontal">s
 
         <LinearLayout
@@ -130,7 +154,6 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="#fff1"
             android:onClick="bukaWA">
 
             <LinearLayout
@@ -139,9 +162,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="RSdadi"
                     android:src="@mipmap/ic_launcher" />
 
@@ -152,6 +176,7 @@
                     android:text="RS. A Dadi Tjokrodipo"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -160,8 +185,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -169,9 +193,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="RSurip"
                     android:src="@mipmap/ic_launcher" />
 
@@ -182,6 +207,7 @@
                     android:text="RS. Urip Sumoharja"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -190,8 +216,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -199,9 +224,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="RSIArestubunda"
                     android:src="@mipmap/ic_launcher" />
 
@@ -212,104 +238,7 @@
                     android:text="RSIA Restu Bunda"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#0d0d36"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="RSIApuri"
-                    android:src="@mipmap/ic_launcher" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="RSIApuri"
-                    android:text="RSIA Puri Betik Hati"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="RSkartika"
-                    android:src="@mipmap/ic_launcher" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="RSkartika"
-                    android:text="RS. Kartika"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="4dp"
-            android:layout_weight="1"
-            android:background="#fff1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="RSbumiwaras"
-                    android:src="@mipmap/ic_launcher" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="RSbumiwaras"
-                    android:text="RS. Bumi Waras"
-                    android:textAlignment="center"
-                    android:textColor="#000"
+                    android:textSize="10dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -322,10 +251,105 @@
         android:background="@color/black_overlay"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="Text"
-            android:textAlignment="center" />
+            android:layout_margin="4dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="RSIApuri"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RSIApuri"
+                    android:text="RSIA Puri Betik Hati"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="RSkartika"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RSkartika"
+                    android:text="RS. Kartika"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="RSbumiwaras"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RSbumiwaras"
+                    android:text="RS. Bumi Waras"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black_overlay"
+        android:orientation="horizontal">
     </LinearLayout>
 </LinearLayout>
