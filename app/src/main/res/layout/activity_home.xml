@@ -8,56 +8,59 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="@color/black_overlay">
-    </LinearLayout>
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="@color/black_overlay">
-    </LinearLayout>
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="#0d0d36">
+        android:background="#0d0d36"
+        android:orientation="horizontal">
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
+            android:layout_weight="1"
             android:background="#fff1">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:onClick="buttonTelpRumah">
+                android:onClick="buttonTelpRumah"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:src="@mipmap/ic_launcher"
+                    android:onClick="RSabdulMoeloek"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSabdulMoeloek"
+                    android:text="RS. Abdul Moeloek"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
+            android:layout_weight="1"
             android:background="#fff1"
             android:onClick="buttonSmsPacar">
 
@@ -65,47 +68,52 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:onClick="RSadvent"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSadvent"
+                    android:text="RS. Advent B.Lampung"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="bukaIG">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"
-                    />
+                    android:onClick="RSimanuel"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSimanuel"
+                    android:text="RS. Imanuel Way Halim"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -114,13 +122,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="#0d0d36">s
+        android:background="#0d0d36"
+        android:orientation="horizontal">s
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
+            android:layout_weight="1"
             android:background="#fff1"
             android:onClick="bukaWA">
 
@@ -128,74 +137,82 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:onClick="RSdadi"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSdadi"
+                    android:text="RS. A Dadi Tjokrodipo"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="email">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:onClick="RSurip"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSurip"
+                    android:text="RS. Urip Sumoharja"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="bukaIG">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"
-                    />
+                    android:onClick="RSIArestubunda"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSIArestubunda"
+                    android:text="RSIA Restu Bunda"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -204,89 +221,96 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="#0d0d36">
+        android:background="#0d0d36"
+        android:orientation="horizontal">
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="bukaFB">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:onClick="RSIApuri"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSIApuri"
+                    android:text="RSIA Puri Betik Hati"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="bukaIG">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"
-                    />
+                    android:onClick="RSkartika"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSkartika"
+                    android:text="RS. Kartika"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:background="#fff1"
-            android:onClick="bukaIG">
+            android:layout_weight="1"
+            android:background="#fff1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/ic_launcher"
-                    />
+                    android:onClick="RSbumiwaras"
+                    android:src="@mipmap/ic_launcher" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="RSbumiwaras"
+                    android:text="RS. Bumi Waras"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textStyle="bold"
-                    android:text="RS. Umum Daerah"
-                    android:onClick="blmada"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -295,12 +319,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:background="@color/black_overlay">
+        android:background="@color/black_overlay"
+        android:orientation="horizontal">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textAlignment="center"
-            android:text="Text"/>
+            android:text="Text"
+            android:textAlignment="center" />
     </LinearLayout>
 </LinearLayout>

@@ -19,6 +19,13 @@
         <activity android:name="mobile.project.screenactivity.HomeActivity" />
         <activity android:name=".ScreenActivity.HomeActivity" />
         <activity android:name="mobile.project.MenuUtama.HomeActivity" />
+        <activity android:name=".AbdulMoeloek" />
+        <activity android:name=".RSAdvent" />
+        <activity android:name=".RSimanuel" />
+        <activity android:name=".RSuripSumoharja" />
+        <activity android:name=".RestuBunda" />
+        <activity android:name=".RS_dadi" />
+        <activity android:name="mobile.project.ViewRoom.ViewAdvent"></activity>
     </application>
 
 </manifest>
